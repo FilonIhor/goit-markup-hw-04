@@ -453,11 +453,6 @@ button {
   text-decoration: none;
 }
 
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer-nav .item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -482,16 +477,9 @@ button {
   color: var(--white-text-color);
 }
 
-.footer-icon-link {
+.footer-nav {
   display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
-.footer-icon {
-  display: flex;
-  justify-content: center;
-  align-self: center;
+  align-items: baseline;
 }
 
 /* ========== footer ========== */
