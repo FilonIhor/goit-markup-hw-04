@@ -417,6 +417,7 @@ button {
 /* ========== footer ========== */
 
 .logo-footer {
+  display: block;
   margin-bottom: 20px;
 
   color: var(--white-text-color);
@@ -468,6 +469,8 @@ button {
 }
 
 .title {
+  margin-bottom: 20px;
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -482,6 +485,31 @@ button {
   align-items: baseline;
 }
 
+.footer-icon {
+  margin-left: 70px;
+}
+
+.footer-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--background-icon);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: var(--accent-color);
+}
 /* ========== footer ========== */
 
 /* ========== styles portfolio ========== */
@@ -786,11 +814,12 @@ button {
 
 .portfolio-footer-nav {
   display: flex;
-  flex-direction: column;
+  align-items: baseline;
 }
 
 .logo-portfolio-footer {
   margin-bottom: 20px;
+  display: block;
 
   color: var(--white-text-color);
   font-family: 'Raleway', sans-serif;
@@ -830,4 +859,42 @@ button {
 .portfolio-mail-tel:focus {
   color: var(--accent-color);
 }
+
+.portfolio-title-footer {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.portfolio-footer-icon {
+  margin-left: 70px;
+}
+
+.portfolio-footer-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.portfolio-footer-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--background-icon);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.portfolio-footer-icon-link:hover,
+.portfolio-footer-icon-link:focus {
+  background-color: var(--accent-color);
+}
+
 /* ========== footer ========== */
